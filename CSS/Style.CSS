@@ -1,0 +1,37 @@
+.navigation {
+    display: flex;
+    width: 96%;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    MARGIN: 0 AUTO;
+    background:lightgrey;
+}
+.logo {
+width: 80px;
+height: 80px;
+background: sandybrown;
+border-radius: 50%;
+
+}
+
+.menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding-left: 30%;
+    font-family: -webkit-pictograph;
+}
+.item {
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    font-weight:700;
+    color: sandybrown; }
+    
+    a:hover {
+    color: brown;
+    cursor: pointer;
+    }
